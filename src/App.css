@@ -1,3 +1,31 @@
+.app-nav {
+  display: flex;
+  gap: 8px;
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 20px 20px 0;
+}
+
+.app-nav a {
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: #526176;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.app-nav a:hover {
+  color: #172033;
+  background: #ffffff;
+}
+
+.app-nav a.active {
+  border-color: #cbd5e1;
+  color: #2563eb;
+  background: #ffffff;
+}
+
 .app {
   width: min(1120px, 100%);
   margin: 0 auto;
